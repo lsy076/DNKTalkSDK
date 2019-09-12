@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  IncomingViewController.h
 //  DNKTalkSDKTestDemo
 //
 //  Created by 赖盛源 on 2019/7/4.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface IncomingViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  DNKTalkSDKTestDemo
+//
+//  Created by 赖盛源 on 2019/7/15.
+//  Copyright © 2019 dnake_ay. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//狄耐克对讲库
+#import <DNKTalkSDK/DNKTalkManager.h>
+
+//sip设备配置（测试账号）
+
+/********************* 昇辉 ***********************/
+//#define SIP_SERVICE     @"sipproxy.ucpaas.com:25060"    //sip服务器
+//#define SIP_ACCOUNT     @"61723138910625"               //sip账号
+//#define SIP_PASSWORD    @"66d458ce"                     //sip密码
+//#define SIP_DEVICE_CODE @"61723086238336"               //设备sip号
+/********************* 欧蒙特 ***********************/
+//#define SIP_SERVICE     @"urmet.vocphone.com"           //sip服务器
+//#define SIP_ACCOUNT     @"URMET6qWZvcR"                 //sip账号
+//#define SIP_PASSWORD    @"7jNcxbBm3WYJ9hCyMkZp"         //sip密码
+/********************* 狄耐克 ***********************/
+#define SIP_SERVICE     @"sipproxy.ucpaas.com:25060"    //sip服务器
+#define SIP_ACCOUNT     @"61723136013461"               //sip账号
+#define SIP_PASSWORD    @"f07d26d5"                     //sip密码
+#define SIP_DEVICE_CODE @"61723086248307"               //设备sip号
+/********************* 研发内部 ***********************/
+//#define SIP_SERVICE     @"120.24.209.135"               //sip服务器
+//#define SIP_ACCOUNT     @"8042"                         //sip账号
+//#define SIP_PASSWORD    @"5763560"                      //sip密码
+//#define SIP_DEVICE_CODE @"8040"                         //设备sip号
+/********************* 龙光汇 ***********************/
+//#define SIP_SERVICE     @"sipproxy.ucpaas.com:25060"    //sip服务器
+//#define SIP_ACCOUNT     @"61723127745541"               //sip账号
+//#define SIP_PASSWORD    @"9ff1419e"                     //sip密码
+//#define SIP_DEVICE_CODE @"61723086237704"               //设备sip号
+
+/*------------------------ 蓝牙开锁 ------------------------*/
+#define BLE_UNLOCK_MAC_ADDRESS1 @"3c:a3:08:a1:66:b8"     //蓝牙开锁mac地址
+#define BLE_UNLOCK_MAC_ADDRESS2 @"38:d2:69:c2:7f:53"
+
+#endif /* PrefixHeader_pch */
