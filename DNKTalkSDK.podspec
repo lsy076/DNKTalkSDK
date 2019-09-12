@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 s.name         = "DNKTalkSDK"
-s.version      = "1.0.0"
-s.summary      = "一个建立pod仓库的DNKTalkSDK."
+s.version      = "1.0.1"
+s.summary      = "DNKTalkSDK."
 s.description  = <<-DESC
-这只是一个建立pod仓库的简单demo，并没有实际的意思。教学使用。
+DNKTalkSDK对讲库
 DESC
 s.homepage     = "https://github.com/lsy076/DNKTalkSDK"
 s.license      = { :type => "MIT", :file => "LICENSE" }
