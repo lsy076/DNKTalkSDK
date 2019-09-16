@@ -19,6 +19,7 @@
 		197094BB2329190F002A3756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 197094BA2329190F002A3756 /* Assets.xcassets */; };
 		197094BE2329190F002A3756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197094BC2329190F002A3756 /* LaunchScreen.storyboard */; };
 		197094C12329190F002A3756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 197094C02329190F002A3756 /* main.m */; };
+		1994661E232F1D96002F76A4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1994661D232F1D96002F76A4 /* README.md */; };
 		55A1922E38A1478BEA5509C5 /* libPods-DNKTalkSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82FD744FC8871205E8A54A6 /* libPods-DNKTalkSDK.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		197094BF2329190F002A3756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		197094C02329190F002A3756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		197094C823291B01002A3756 /* DNKTalkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DNKTalkSDK.framework; sourceTree = "<group>"; };
+		1994661D232F1D96002F76A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		A9FDF7AC064B84FE87EB61E1 /* Pods-DNKTalkSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKTalkSDK.release.xcconfig"; path = "Target Support Files/Pods-DNKTalkSDK/Pods-DNKTalkSDK.release.xcconfig"; sourceTree = "<group>"; };
 		B82FD744FC8871205E8A54A6 /* libPods-DNKTalkSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DNKTalkSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E742952CF8BE1B9BCF5E52B6 /* Pods-DNKTalkSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKTalkSDK.debug.xcconfig"; path = "Target Support Files/Pods-DNKTalkSDK/Pods-DNKTalkSDK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		197094B023291900002A3756 /* DNKTalkSDK */ = {
 			isa = PBXGroup;
 			children = (
+				1994661D232F1D96002F76A4 /* README.md */,
 				197094C723291B01002A3756 /* DNKTalkSDK */,
 				197094B123291900002A3756 /* AppDelegate.h */,
 				197094B223291900002A3756 /* AppDelegate.m */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1994661E232F1D96002F76A4 /* README.md in Resources */,
 				194D30112329CF0A00454960 /* ViewController.xib in Resources */,
 				197094BE2329190F002A3756 /* LaunchScreen.storyboard in Resources */,
 				194D300D2329CF0A00454960 /* MonitorVideoViewController.xib in Resources */,
