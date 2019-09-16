@@ -2,7 +2,7 @@
 //  MonitorVideoViewController.h
 //  DNKTalkSDKTestDemo
 //
-//  Created by 赖盛源 on 2019/7/9.
+//  Created by dnake_ay on 2019/7/9.
 //  Copyright © 2019 dnake_ay. All rights reserved.
 //
 
