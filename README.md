@@ -10,15 +10,19 @@ pod 'DNKTalkSDK'
 在PrefixHeader.pch配置Sip信息
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
     //sip初始化
+    
     [[DNKTalkManager sharedInstance] initSDK];
     
     //收到门口机呼叫消息
+    
     [[DNKTalkManager sharedInstance] setReceiveCallingSuccessBlock:^{
         //跳转到呼叫界面监视
     }];
     
     //收到门口机挂断消息
+    
     [[DNKTalkManager sharedInstance] setTalkStopBlock:^{
         //退出监视界面
     }];
