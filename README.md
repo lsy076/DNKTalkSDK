@@ -1,11 +1,13 @@
 # DNKTalkSDK
 
-支持Cocoapods依赖
+支持Cocoapods
 
-pod 'DNKTalkSDK', :git => 'https://github.com/lsy076/DNKTalkSDK.git'
+pod 'DNKTalkSDK'
 
 使用：在需要使用到的地方导入狄耐克对讲库头文件
 #import <DNKTalkSDK/DNKTalkManager.h>
+
+在PrefixHeader.pch配置Sip信息
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //sip初始化
