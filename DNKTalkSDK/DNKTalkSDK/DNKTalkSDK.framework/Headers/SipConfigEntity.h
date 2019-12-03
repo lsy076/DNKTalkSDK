@@ -2,7 +2,7 @@
 //  SipConfigEntity.h
 //  DNKTalkSDK
 //
-//  Created by 赖盛源 on 2019/7/3.
+//  Created by dnake_ay on 2019/7/3.
 //  Copyright © 2019 dnake_ay. All rights reserved.
 //
 
@@ -27,12 +27,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (copy, nonatomic) NSString *unit;
 //推送的设备token
 @property (copy, nonatomic) NSString *deviceToken;
+//加载管理软件设置配置文件
+@property (copy, nonatomic) NSString *server_talk;
 
-//@property (copy, nonatomic) NSString *sendregister;
+@property (copy, nonatomic) NSString *user_talk;
 
-//@property (copy, nonatomic) NSString *realm;
-
-//@property (copy, nonatomic) NSString *sip_port_override;
+@property (copy, nonatomic) NSString *passwd_talk;
 
 @end
 
