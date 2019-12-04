@@ -34,6 +34,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (copy, nonatomic) NSString *passwd_talk;
 
+@property (copy, nonatomic) NSString *dcode_talk;
+
+@property (copy, nonatomic) NSString *sync_talk;
+
 @end
 
 NS_ASSUME_NONNULL_END
