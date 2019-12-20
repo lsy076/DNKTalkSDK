@@ -17,10 +17,10 @@
 
 //sip设备配置（测试账号）
 
-#define SIP_SERVICE     @"sip服务器"
-#define SIP_ACCOUNT     @"sip账号"
-#define SIP_PASSWORD    @"sip密码"
-#define SIP_DEVICE_CODE @"设备sip号"
+#define SIP_SERVICE     @""
+#define SIP_ACCOUNT     @""
+#define SIP_PASSWORD    @""
+#define SIP_DEVICE_CODE @""
 
 /*------------------------ 蓝牙开锁 ------------------------*/
 #define BLE_UNLOCK_MAC_ADDRESS1 @"mac地址1"    //蓝牙开锁mac地址
