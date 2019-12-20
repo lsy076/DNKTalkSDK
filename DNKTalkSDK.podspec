@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "DNKTalkSDK"
-s.version      = "1.0.4"
+s.version      = "1.0.5"
 s.summary      = "DNKTalkSDK."
 s.description  = <<-DESC
 DNKTalkSDK对讲库
