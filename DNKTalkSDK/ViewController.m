@@ -23,6 +23,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.navigationItem.title = @"DNKTalkSDK";
+    
     self.navigationItem.rightBarButtonItem =  [[UIBarButtonItem alloc] initWithTitle:@"离线" style:UIBarButtonItemStyleDone target:self action:nil];
     
     self.sipServiceTextField.text = SIP_SERVICE;
