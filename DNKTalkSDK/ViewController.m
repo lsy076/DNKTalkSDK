@@ -120,6 +120,10 @@
     
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSLog(@"%@", sipConfigEntity);
+    });
+    
 }
 //监视
 - (IBAction)monitorVideoMethod {

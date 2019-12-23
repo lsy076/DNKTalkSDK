@@ -17,9 +17,9 @@
 
 //sip设备配置（测试账号）
 
-#define SIP_SERVICE     @""
-#define SIP_ACCOUNT     @""
-#define SIP_PASSWORD    @""
+#define SIP_SERVICE     @"sipproxy.ucpaas.com:25060"
+#define SIP_ACCOUNT     @"61723136013461"
+#define SIP_PASSWORD    @"f07d26d5"
 #define SIP_DEVICE_CODE @""
 
 /*------------------------ 蓝牙开锁 ------------------------*/
