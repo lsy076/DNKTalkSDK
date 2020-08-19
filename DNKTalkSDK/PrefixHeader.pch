@@ -17,13 +17,13 @@
 
 //sip设备配置（测试账号）
 
-#define SIP_SERVICE     @""
-#define SIP_ACCOUNT     @""
-#define SIP_PASSWORD    @""
-#define SIP_DEVICE_CODE @""
+#define SIP_SERVICE     @"sipproxy.ucpaas.com:25060"
+#define SIP_ACCOUNT     @"61723153473811"
+#define SIP_PASSWORD    @"85e84fe2"
+#define SIP_DEVICE_CODE @"61723086245274"
 
 /*------------------------ 蓝牙开锁 ------------------------*/
-#define BLE_UNLOCK_MAC_ADDRESS1 @"mac地址1"    //蓝牙开锁mac地址
+#define BLE_UNLOCK_MAC_ADDRESS1 @"fc:69:47:17:5f:4d"    //蓝牙开锁mac地址
 #define BLE_UNLOCK_MAC_ADDRESS2 @"mac地址2"
 
 #endif /* PrefixHeader_pch */

@@ -53,5 +53,7 @@
 	</array>
 	<key>UIUserInterfaceStyle</key>
 	<string>Light</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>蓝牙开门需要打开BLE</string>
 </dict>
 </plist>

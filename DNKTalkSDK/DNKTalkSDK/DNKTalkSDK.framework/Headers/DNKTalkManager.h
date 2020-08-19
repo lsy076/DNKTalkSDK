@@ -90,10 +90,10 @@ typedef void(^DNKTalkManagerWithConnectLog)(BLE_CALLBACK, NSString *, NSString *
  *  初始化
  */
 - (void)initSDK;
-/**
- *退出
- */
-- (void)exitSDK;
+///**
+// *退出
+// */
+//- (void)exitSDK;
 /**
  *  Sip配置（注册）
  *  sipConfigEntity:sip配置实体，参数选择性配置,把需要配置的参数赋值给实体
