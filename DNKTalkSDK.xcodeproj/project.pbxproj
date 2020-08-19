@@ -21,6 +21,7 @@
 		197094C12329190F002A3756 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 197094C02329190F002A3756 /* main.m */; };
 		1994661E232F1D96002F76A4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1994661D232F1D96002F76A4 /* README.md */; };
 		55A1922E38A1478BEA5509C5 /* libPods-DNKTalkSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82FD744FC8871205E8A54A6 /* libPods-DNKTalkSDK.a */; };
+		A36C063524ED192900F0E51E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36C063424ED192900F0E51E /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,8 @@
 		197094C02329190F002A3756 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		197094C823291B01002A3756 /* DNKTalkSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DNKTalkSDK.framework; sourceTree = "<group>"; };
 		1994661D232F1D96002F76A4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		A36C063324ED192900F0E51E /* DNKTalkSDK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNKTalkSDK.entitlements; sourceTree = "<group>"; };
+		A36C063424ED192900F0E51E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A9FDF7AC064B84FE87EB61E1 /* Pods-DNKTalkSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKTalkSDK.release.xcconfig"; path = "Target Support Files/Pods-DNKTalkSDK/Pods-DNKTalkSDK.release.xcconfig"; sourceTree = "<group>"; };
 		B82FD744FC8871205E8A54A6 /* libPods-DNKTalkSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DNKTalkSDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E742952CF8BE1B9BCF5E52B6 /* Pods-DNKTalkSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DNKTalkSDK.debug.xcconfig"; path = "Target Support Files/Pods-DNKTalkSDK/Pods-DNKTalkSDK.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 			files = (
 				55A1922E38A1478BEA5509C5 /* libPods-DNKTalkSDK.a in Frameworks */,
 				194D30142329D02C00454960 /* DNKTalkSDK.framework in Frameworks */,
+				A36C063524ED192900F0E51E /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +100,7 @@
 		197094B023291900002A3756 /* DNKTalkSDK */ = {
 			isa = PBXGroup;
 			children = (
+				A36C063324ED192900F0E51E /* DNKTalkSDK.entitlements */,
 				1994661D232F1D96002F76A4 /* README.md */,
 				197094C723291B01002A3756 /* DNKTalkSDK */,
 				197094B123291900002A3756 /* AppDelegate.h */,
@@ -138,6 +143,7 @@
 		8AB4B01CA2209BE2729EB732 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A36C063424ED192900F0E51E /* AudioToolbox.framework */,
 				B82FD744FC8871205E8A54A6 /* libPods-DNKTalkSDK.a */,
 			);
 			name = Frameworks;
@@ -382,6 +388,7 @@
 			baseConfigurationReference = E742952CF8BE1B9BCF5E52B6 /* Pods-DNKTalkSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DNKTalkSDK/DNKTalkSDK.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8C962LK342;
 				ENABLE_BITCODE = NO;
@@ -407,6 +414,7 @@
 			baseConfigurationReference = A9FDF7AC064B84FE87EB61E1 /* Pods-DNKTalkSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DNKTalkSDK/DNKTalkSDK.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8C962LK342;
 				ENABLE_BITCODE = NO;

@@ -24,6 +24,8 @@
 	<true/>
 	<key>NSAppleMusicUsageDescription</key>
 	<string>Mdeia</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>蓝牙开门需要打开BLE</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Camera</string>
 	<key>NSMicrophoneUsageDescription</key>
@@ -32,6 +34,10 @@
 	<string>Photo</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Photo Usage</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -53,7 +59,5 @@
 	</array>
 	<key>UIUserInterfaceStyle</key>
 	<string>Light</string>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>蓝牙开门需要打开BLE</string>
 </dict>
 </plist>
